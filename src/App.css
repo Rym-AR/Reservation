@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,158 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+nav {
+  background-color: #222;
+  height: 20px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+
+#home {
+  background-color: #ff0707;
+  color: #fff;
+  height: 100vh;
+}
+
+#about {
+  background-color: #1f9232;
+  color: #000;
+  height: 100vh;
+}
+
+#contact {
+  background-color: #3f16f7;
+  color: #000;
+  height: 100vh;
+}
+#uno {
+  background-color: #bbf716;
+  color: #000;
+  height: 100vh;
+}
+#dos {
+  background-color: #f716bf;
+  color: #000;
+  height: 100vh;
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #000000;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* margin-left: 30px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar a {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 100px;
+}
+
+.navbar a:hover {
+  color: #0000ff;
+}
+
+.navbar ul {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10%;
+  background-color: #ffffff;
+  z-index: 100;
+  flex-direction: column;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+.navbar ul li a {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: #0000ff;
+}
+
+.navbar .is-hovered {
+  background-color: #f5f5f5;
+}
+.logo{
+  font-size: 1.3rem;
+  color: #000;
+  /* background-color: pink; */
+  width: 10%;
+  margin-left: 5%;
+}
+/* .navv{
+  background-color: yellow;
+  margin-left: 20%;
+  width: 60%;
+} */
+#home{
+  background-color: #bbf716;
+  color: #000;
+  height: 100vh;
+}
+#nous{
+  background-color: #f71616;
+  color: #000;
+  height: 100vh;
+}
+#contact{
+  background-color: #1df716;
+  color: #000;
+  height: 100vh;
+}
+#uno{
+  /* background-color: #1638f7; */
+  color: #000;
+  height: 100vh;
+ 
+}
+#dos{
+  background-color: #b716f7;
+  color: #000;
+  height: 100vh;
+}
+

@@ -1,0 +1,78 @@
+/* .divs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+  }
+  
+  .div {
+    width: 20%;
+    height: 30%;
+    background-color: pink;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  .selected {
+    background-color: #ccc;
+  }
+   */
+
+.consultation{
+  /* background-color: black; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70%;
+  align-items: center;
+  overflow: hidden;
+  
+}
+.title{
+  /* background-color: green; */
+  padding: 60px;
+}
+.un{
+  background-color:rgb(116, 0, 0);
+  /* background-color: #fff; */
+  width: 23%;
+  height: 60%;
+  margin-left: 2%;
+  margin-top: 5%;
+  border-radius: 8% ;
+  border: 1px solid rgb(116, 0, 0);
+ 
+
+}
+
+.photo{
+  background-color: #f0caca;
+  width: 100%;
+  height: 70%;
+  /* margin-top: 1%; */
+  /* margin-left: 5%; */
+  border: 1px solid rgb(116, 0, 0);
+  border-top-right-radius: 8%;
+  border-top-left-radius: 8%;
+}
+.bottom p{
+  /* margin-top: 20%;  */
+  color:white;
+  margin-left: 3%;
+}
+.bottom h3{
+  color: white;
+  /* text-align: center; */
+  margin-left: 1%;
+}
+#btng , #btnd{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
